@@ -1,2 +1,12 @@
-สวัสดีครับ คลังเก็บข้อมูลอันนี้เอาไว้ศึกษาและทำความเข้าใจเกี่ยวกับโครงสร้างข้อมูลและอัลกอริทึมพื้นฐานต่างๆ โดยใช้ภาษา C++ ครับ
-This repository created for learning and understanding about basic data structure and algorithms using c++
+📚 Data Structures and Algorithms in C++
+This repository contains C++ implementations of basic data structures and algorithms. It is intended for learning and practice purposes.
+
+Topics Covered
+
+Arrays, Linked Lists, Stacks, Queues
+Trees, Graphs, Heaps
+Sorting and Searching Algorithms
+Recursion and Dynamic Programming
+How to Run
+
+Compile with any C++ compiler, e.g.:
