@@ -3,9 +3,11 @@ This repository contains C++ implementations of basic data structures and algori
 
 Topics Covered
 
-Arrays, Linked Lists, Stacks, Queues.
-Trees, Graphs, Heaps.
-Sorting and Searching Algorithms.
-Recursion and Dynamic Programming.
+<ul>
+  <li>Arrays, Linked Lists, Stacks, Queues.</li>
+  <li>Trees, Graphs, Heaps.</li>
+  <li>Sorting and Searching Algorithms.</li>
+  <li>Recursion and Dynamic Programming.</li>
+</ul>
 
-Compile with any C++ compiler, e.g.
+<p>Compile with any C++ compiler, e.g.</p>
