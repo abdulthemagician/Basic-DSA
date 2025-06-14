@@ -48,28 +48,32 @@ class Linear_Queue{
     bool isEmpty(){
       return front == nullptr;
     }
-    
-    void enqueue(int data){
-      Node* newNode = new Node(data);
+    void enqueue(int data){ //  <- 1 <- 2 <- 3 ... n
+      Node* newNode = new Node(data);           
       
       if(isEmpty()){
+        //if queue is empty front and rear will point to new Node
         front = rear = newNode;
         return;
       }
       
+      //if queue isn't empty rear will enqueue a new node to the last
       rear->setNext(newNode);
+      //then rear will point to new node
       rear = newNode;
       
       return;
     }
     
+
     void dequeue(){
       if(isEmpty()){
         cout << "Queue is empty. Cannot dequeue.\n";
         return;
       }
-      
+      //let temp store a pointer of front
       Node* temp = front;
+      //then front will point to the next to rear
       front = front->getNext();
       
       if(front == nullptr){
